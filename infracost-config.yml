@@ -1,0 +1,7 @@
+version: 0.1
+projects:
+  - path: google
+    name: google
+
+  - path: azure
+    name: azure
