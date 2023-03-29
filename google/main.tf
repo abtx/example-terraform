@@ -33,7 +33,7 @@ resource "google_compute_instance" "instance1" {
 
 resource "aws_instance" "web_app_2" {
   ami           = "ami-674cbc1e"
-  instance_type = "m7g.4xlarge"              # <<<<< Try changing this to m5.8xlarge to compare the costs
+  instance_type = "m5.8xlarge"              # <<<<< Try changing this to m5.8xlarge to compare the costs
 
   root_block_device {
     volume_size = 50
@@ -49,7 +49,7 @@ resource "aws_instance" "web_app_2" {
 
 resource "aws_instance" "web_app_3" {
   ami           = "ami-674cbc1e"
-  instance_type = "m7g.4xlarge"              # <<<<< Try changing this to m5.8xlarge to compare the costs
+  instance_type = "m5.8xlarge"              # <<<<< Try changing this to m5.8xlarge to compare the costs
 
   root_block_device {
     volume_size = 50
